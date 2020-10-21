@@ -1286,7 +1286,7 @@
                 "subtype": "variable",
                 "file": "src/app/components/task.stories.ts",
                 "type": "",
-                "defaultValue": "() => ({\r\n  component: TaskComponent,\r\n  props: {\r\n    task: taskData,\r\n    onPinTask: actionsData.onPinTask,\r\n    onArchiveTask: actionsData.onArchiveTask\r\n  }\r\n})"
+                "defaultValue": "() => ({\r\n  component: TaskComponent,\r\n  props: {\r\n    task: object('task', { ...taskData }),\r\n    onPinTask: actionsData.onPinTask,\r\n    onArchiveTask: actionsData.onArchiveTask\r\n  }\r\n})"
             },
             {
                 "name": "defaultTasks",
@@ -1525,7 +1525,7 @@
                     "subtype": "variable",
                     "file": "src/app/components/task.stories.ts",
                     "type": "",
-                    "defaultValue": "() => ({\r\n  component: TaskComponent,\r\n  props: {\r\n    task: taskData,\r\n    onPinTask: actionsData.onPinTask,\r\n    onArchiveTask: actionsData.onArchiveTask\r\n  }\r\n})"
+                    "defaultValue": "() => ({\r\n  component: TaskComponent,\r\n  props: {\r\n    task: object('task', { ...taskData }),\r\n    onPinTask: actionsData.onPinTask,\r\n    onArchiveTask: actionsData.onArchiveTask\r\n  }\r\n})"
                 },
                 {
                     "name": "Pinned",
