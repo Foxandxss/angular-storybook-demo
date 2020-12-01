@@ -1013,7 +1013,7 @@
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "",
-            "templateData": "<div class=\"list-item {{ task?.state }}\">\r\n  <label class=\"checkbox\">\r\n    <input type=\"checkbox\" [defaultChecked]=\"task?.state === 'TASK_ARCHIVED'\" disabled=\"true\" name=\"checked\" />\r\n    <span class=\"checkbox-custom\" (click)=\"onArchive(task.id)\"></span>\r\n  </label>\r\n  <div class=\"title\">\r\n    <input type=\"text\" [value]=\"task?.title\" readonly=\"true\" placeholder=\"Input title\" />\r\n  </div>\r\n  <div class=\"actions\">\r\n    <a *ngIf=\"task?.state !== 'TASK_ARCHIVED'\"  (click)=\"onPin(task.id)\">\r\n      <span class=\"icon-star\"></span>\r\n    </a>\r\n  </div>\r\n</div>\r\n"
+            "templateData": "<div class=\"list-item {{ task?.state }}\">\r\n  <label class=\"checkbox\">\r\n    <input type=\"checkbox\" [defaultChecked]=\"task?.state === 'TASK_ARCHIVED'\" disabled=\"true\" name=\"checked\" />\r\n    <span class=\"checkbox-custom\" (click)=\"onArchive(task.id)\"></span>\r\n  </label>\r\n  <div class=\"title\">\r\n    <input type=\"text\" [value]=\"task?.title\" readonly=\"true\" placeholder=\"Input title\" [ngStyle]=\"{textOverflow:'ellipsis'}\" />\r\n  </div>\r\n  <div class=\"actions\">\r\n    <a *ngIf=\"task?.state !== 'TASK_ARCHIVED'\"  (click)=\"onPin(task.id)\">\r\n      <span class=\"icon-star\"></span>\r\n    </a>\r\n  </div>\r\n</div>\r\n"
         },
         {
             "name": "TaskListComponent",
@@ -1385,6 +1385,22 @@
                 "defaultValue": "Template.bind({})"
             },
             {
+                "name": "longTitle",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/components/task.stories.ts",
+                "type": "",
+                "defaultValue": "`This task's name is absurdly large. In fact, I think if I keep going I might end up with content overflow. What will happen? The star that represents a pinned task could have text overlapping. The text could cut-off abruptly when it reaches the star. I hope not!`"
+            },
+            {
+                "name": "LongTitle",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/app/components/task.stories.ts",
+                "type": "",
+                "defaultValue": "() => ({\r\n  component: TaskComponent,\r\n  props: {\r\n    task: {\r\n      ...taskData,\r\n      title: longTitle,\r\n    },\r\n    onPinTask: actionsData.onPinTask,\r\n    onArchiveTask: actionsData.onArchiveTask,\r\n  },\r\n})"
+            },
+            {
                 "name": "mock",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
@@ -1526,6 +1542,22 @@
                     "file": "src/app/components/task.stories.ts",
                     "type": "",
                     "defaultValue": "() => ({\r\n  component: TaskComponent,\r\n  props: {\r\n    task: object('task', { ...taskData }),\r\n    onPinTask: actionsData.onPinTask,\r\n    onArchiveTask: actionsData.onArchiveTask\r\n  }\r\n})"
+                },
+                {
+                    "name": "longTitle",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/components/task.stories.ts",
+                    "type": "",
+                    "defaultValue": "`This task's name is absurdly large. In fact, I think if I keep going I might end up with content overflow. What will happen? The star that represents a pinned task could have text overlapping. The text could cut-off abruptly when it reaches the star. I hope not!`"
+                },
+                {
+                    "name": "LongTitle",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/components/task.stories.ts",
+                    "type": "",
+                    "defaultValue": "() => ({\r\n  component: TaskComponent,\r\n  props: {\r\n    task: {\r\n      ...taskData,\r\n      title: longTitle,\r\n    },\r\n    onPinTask: actionsData.onPinTask,\r\n    onArchiveTask: actionsData.onArchiveTask,\r\n  },\r\n})"
                 },
                 {
                     "name": "Pinned",
@@ -1932,6 +1964,26 @@
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
                 "name": "Default",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/components/task.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "longTitle",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/app/components/task.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "LongTitle",
                 "coveragePercent": 0,
                 "coverageCount": "0/1",
                 "status": "low"

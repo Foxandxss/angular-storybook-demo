@@ -53,8 +53,10 @@ exports[`Storyshots PureInboxScreen Default 1`] = `
                   class="title"
                 >
                   <input
+                    ng-reflect-ng-style="[object Object]"
                     placeholder="Input title"
                     readonly="true"
+                    style="text-overflow: ellipsis;"
                     type="text"
                   />
                 </div>
@@ -92,8 +94,10 @@ exports[`Storyshots PureInboxScreen Default 1`] = `
                   class="title"
                 >
                   <input
+                    ng-reflect-ng-style="[object Object]"
                     placeholder="Input title"
                     readonly="true"
+                    style="text-overflow: ellipsis;"
                     type="text"
                   />
                 </div>
@@ -131,8 +135,10 @@ exports[`Storyshots PureInboxScreen Default 1`] = `
                   class="title"
                 >
                   <input
+                    ng-reflect-ng-style="[object Object]"
                     placeholder="Input title"
                     readonly="true"
+                    style="text-overflow: ellipsis;"
                     type="text"
                   />
                 </div>
@@ -170,8 +176,10 @@ exports[`Storyshots PureInboxScreen Default 1`] = `
                   class="title"
                 >
                   <input
+                    ng-reflect-ng-style="[object Object]"
                     placeholder="Input title"
                     readonly="true"
+                    style="text-overflow: ellipsis;"
                     type="text"
                   />
                 </div>
@@ -270,8 +278,10 @@ exports[`Storyshots PureTaskList Default 1`] = `
                 class="title"
               >
                 <input
+                  ng-reflect-ng-style="[object Object]"
                   placeholder="Input title"
                   readonly="true"
+                  style="text-overflow: ellipsis;"
                   type="text"
                 />
               </div>
@@ -309,8 +319,10 @@ exports[`Storyshots PureTaskList Default 1`] = `
                 class="title"
               >
                 <input
+                  ng-reflect-ng-style="[object Object]"
                   placeholder="Input title"
                   readonly="true"
+                  style="text-overflow: ellipsis;"
                   type="text"
                 />
               </div>
@@ -348,8 +360,10 @@ exports[`Storyshots PureTaskList Default 1`] = `
                 class="title"
               >
                 <input
+                  ng-reflect-ng-style="[object Object]"
                   placeholder="Input title"
                   readonly="true"
+                  style="text-overflow: ellipsis;"
                   type="text"
                 />
               </div>
@@ -387,8 +401,10 @@ exports[`Storyshots PureTaskList Default 1`] = `
                 class="title"
               >
                 <input
+                  ng-reflect-ng-style="[object Object]"
                   placeholder="Input title"
                   readonly="true"
+                  style="text-overflow: ellipsis;"
                   type="text"
                 />
               </div>
@@ -426,8 +442,10 @@ exports[`Storyshots PureTaskList Default 1`] = `
                 class="title"
               >
                 <input
+                  ng-reflect-ng-style="[object Object]"
                   placeholder="Input title"
                   readonly="true"
+                  style="text-overflow: ellipsis;"
                   type="text"
                 />
               </div>
@@ -465,8 +483,10 @@ exports[`Storyshots PureTaskList Default 1`] = `
                 class="title"
               >
                 <input
+                  ng-reflect-ng-style="[object Object]"
                   placeholder="Input title"
                   readonly="true"
+                  style="text-overflow: ellipsis;"
                   type="text"
                 />
               </div>
@@ -724,8 +744,10 @@ exports[`Storyshots PureTaskList With Pinned Tasks 1`] = `
                 class="title"
               >
                 <input
+                  ng-reflect-ng-style="[object Object]"
                   placeholder="Input title"
                   readonly="true"
+                  style="text-overflow: ellipsis;"
                   type="text"
                 />
               </div>
@@ -763,8 +785,10 @@ exports[`Storyshots PureTaskList With Pinned Tasks 1`] = `
                 class="title"
               >
                 <input
+                  ng-reflect-ng-style="[object Object]"
                   placeholder="Input title"
                   readonly="true"
+                  style="text-overflow: ellipsis;"
                   type="text"
                 />
               </div>
@@ -802,8 +826,10 @@ exports[`Storyshots PureTaskList With Pinned Tasks 1`] = `
                 class="title"
               >
                 <input
+                  ng-reflect-ng-style="[object Object]"
                   placeholder="Input title"
                   readonly="true"
+                  style="text-overflow: ellipsis;"
                   type="text"
                 />
               </div>
@@ -841,8 +867,10 @@ exports[`Storyshots PureTaskList With Pinned Tasks 1`] = `
                 class="title"
               >
                 <input
+                  ng-reflect-ng-style="[object Object]"
                   placeholder="Input title"
                   readonly="true"
+                  style="text-overflow: ellipsis;"
                   type="text"
                 />
               </div>
@@ -880,8 +908,10 @@ exports[`Storyshots PureTaskList With Pinned Tasks 1`] = `
                 class="title"
               >
                 <input
+                  ng-reflect-ng-style="[object Object]"
                   placeholder="Input title"
                   readonly="true"
+                  style="text-overflow: ellipsis;"
                   type="text"
                 />
               </div>
@@ -919,8 +949,10 @@ exports[`Storyshots PureTaskList With Pinned Tasks 1`] = `
                 class="title"
               >
                 <input
+                  ng-reflect-ng-style="[object Object]"
                   placeholder="Input title"
                   readonly="true"
+                  style="text-overflow: ellipsis;"
                   type="text"
                 />
               </div>
@@ -972,8 +1004,10 @@ exports[`Storyshots Task Archived 1`] = `
         class="title"
       >
         <input
+          ng-reflect-ng-style="[object Object]"
           placeholder="Input title"
           readonly="true"
+          style="text-overflow: ellipsis;"
           type="text"
         />
       </div>
@@ -1013,8 +1047,58 @@ exports[`Storyshots Task Default 1`] = `
         class="title"
       >
         <input
+          ng-reflect-ng-style="[object Object]"
           placeholder="Input title"
           readonly="true"
+          style="text-overflow: ellipsis;"
+          type="text"
+        />
+      </div>
+      <div
+        class="actions"
+      >
+        
+        <a>
+          <span
+            class="icon-star"
+          />
+        </a>
+      </div>
+    </div>
+  </app-task>
+</storybook-dynamic-app-root>
+`;
+
+exports[`Storyshots Task Long Title 1`] = `
+<storybook-dynamic-app-root
+  cfr={[Function CodegenComponentFactoryResolver]}
+  data={[Function Object]}
+  target={[Function ViewContainerRef_]}
+>
+  <app-task>
+    <div
+      class="list-item Task_INBOX"
+    >
+      <label
+        class="checkbox"
+      >
+        <input
+          disabled="true"
+          name="checked"
+          type="checkbox"
+        />
+        <span
+          class="checkbox-custom"
+        />
+      </label>
+      <div
+        class="title"
+      >
+        <input
+          ng-reflect-ng-style="[object Object]"
+          placeholder="Input title"
+          readonly="true"
+          style="text-overflow: ellipsis;"
           type="text"
         />
       </div>
@@ -1059,8 +1143,10 @@ exports[`Storyshots Task Pinned 1`] = `
         class="title"
       >
         <input
+          ng-reflect-ng-style="[object Object]"
           placeholder="Input title"
           readonly="true"
+          style="text-overflow: ellipsis;"
           type="text"
         />
       </div>
