@@ -3,7 +3,7 @@
     <input type="checkbox" [defaultChecked]="task?.state === 'TASK_ARCHIVED'" disabled="true" name="checked" />
     <span class="checkbox-custom" (click)="onArchive(task.id)"></span>
   </label>
-  <div class="title">
+  <div class="title" style="background: blue;">
     <input type="text" [value]="task?.title" readonly="true" placeholder="Input title" [ngStyle]="{textOverflow:'ellipsis'}" />
   </div>
   <div class="actions">
